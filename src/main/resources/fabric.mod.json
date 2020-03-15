@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nbt-viewer",
+  "version": "${version}",
+  "name": "NBT Viewer",
+  "description": "View NBT on items!",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "MIT",
+  "icon": "assets/nbt-viewer/icon.png",
+  "environment": "*",
+  "mixins": [
+    "nbt-viewer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.8+build.187",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}
